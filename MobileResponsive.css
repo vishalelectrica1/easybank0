@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.navbar{
+    display: block;
+   
+    width:1250px;
+    text-align: center;
+    
+}
+.page1{
+    display: block;
+padding: 50%;
+}
+.content{
+   padding-left: 200px;
+}
+.pictures{
+    margin-top: 20px;
+}
+.page2{
+    display: block;
+ width: 1225px;
+}
+.page3{
+    /* width: 1200px; */
+    /* text-align: center; */
+   padding-left: 200px;
+}
+.groups{
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.page3{
+   margin-left: 250px;
+}
+.articles{
+    display: block;
+}
+footer{
+    width: 1275px;
+    text-align: center;
+}
+.container{
+    display: block;
+    width: 1225px;
+}

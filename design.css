@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+  background-color: aliceblue;
+    display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  box-shadow: 2px 2px 15px;
+  padding: 10px;
+}
+li{
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+  color:black;
+}
+.logo{
+  padding: 10px ;
+animation-name: logo;
+animation-duration: 2s;
+animation-fill-mode: both;
+animation-direction:alternate-reverse;
+animation-iteration-count: infinite;
+}
+@keyframes logo{
+  from{
+    transform: scale(0.5);
+    
+  }
+  to{
+    transform: scale(1);
+  }
+}
+.menu{
+  padding-top: 15px;
+}
+.menu a{
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  transition: color;
+  transition-duration: 0.5s;
+}
+.menu a:hover{
+  border: 1px solid red;
+color:red;
+}
+.btn{
+  background: linear-gradient(to right,#20BF55,#01BAEF);
+  color: white;
+  padding: 10px 35px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  transition-property: transform ;
+  transition-duration: 0.5s;
+  
+  /* color: white; */
+}
+.btn:hover{
+  transform:scale(1.1);
+  
+}
+.page1{
+display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+}
+.content{
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+}
+ h1{
+  font-size: 70px;
+  font-family:sans-serif;
+}
+ p{
+  font-family:sans-serif;
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+}
+#bodybtn{
+position: relative;
+top: 20px;
+left: 50;
+}
+.pictures{
+  background: url(bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.img1{
+  transition-property: transform;
+  transition-duration: 0.5s;
+  animation-name: ani;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
+  animation-timing-function:ease-in-out;
+
+}
+@keyframes ani{
+  from{
+    transform: scale(0.8);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+.img1:hover{
+  transform: scaleX(1.1);
+}
+.page2{
+  margin-top: 25px;
+  padding-left: 50px;
+  background-color: ghostwhite;
+}
+.page2 p{
+  font-size: 20px;
+}
+.groups{
+ text-align: center;
+ display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.groups div img{
+box-shadow: 2px 2px 5px;
+border-radius: 40px;
+}
+.page3{
+  margin-top: 250px;
+  padding-left: 50px;
+}
+.articles{
+ 
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.box{
+  /* border: 1px solid black; */
+text-align: center;
+width: 300px;
+margin-top: 50px ;
+padding: 10px ;
+box-shadow: 2px 2px 5px;
+border-radius: 10px;
+transition: transform;
+transition-duration: 0.5s;
+}
+.box:hover{
+  transform: scale(1.1);
+}
+.box p{
+  font-size: 15px;
+  text-align: center;
+  
+}
+.img{
+ 
+ 
+ border: 2px solid black;
+ box-shadow: 2px 2px 15px;
+ border-radius: 10px; 
+ transition: transform;
+ transition-duration: 1s;
+
+}
+.img:hover{
+  transform: scale(1.1);
+}
+footer{
+  margin-top: 50px;
+  background-color:rgb(52, 45, 101);
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.left{
+  padding-left: 40px;
+}
+.social{
+  display: flex;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-left: 425px;
+}
+.social li a{
+  margin: 20px;
+  
+}
+.left li a{
+ color: white;
+}
+.middle li a{
+ color: white;
+}
+.right p{
+margin: 25px;
+font-size: 20px;
+}
